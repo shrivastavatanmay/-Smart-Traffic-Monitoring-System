@@ -1,0 +1,9 @@
+streamlit
+pandas
+plotly
+numpy
+statsmodels
+supabase
+python-dotenv
+streamlit-autorefresh
+pydeck
