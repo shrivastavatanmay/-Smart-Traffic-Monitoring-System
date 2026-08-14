@@ -11,7 +11,7 @@ from supabase import create_client, Client
 
 # --- PAGE CONFIG ---
 st.set_page_config(
-    page_title="Enterprise Traffic Analytics",
+    page_title="Smart Traffic Monitoring System",
     page_icon="🌍",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -63,7 +63,7 @@ if 'authenticated' not in st.session_state:
     st.session_state['authenticated'] = False
 
 def login():
-    st.title("🌍 Enterprise Traffic Analytics")
+    st.title("🌍 Smart Traffic Monitoring System")
     st.markdown("### Secure Access")
     
     col1, col2, col3 = st.columns([1,2,1])
