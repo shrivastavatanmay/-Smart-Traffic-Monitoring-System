@@ -221,7 +221,8 @@ def dashboard_app():
                 layers=[layer],
                 initial_view_state=view_state,
                 tooltip=tooltip,
-                map_style='mapbox://styles/mapbox/dark-v10'
+                # map_style='mapbox://styles/mapbox/dark-v10'
+                map_style='light' if st.get_option("theme.base") == "light" else 'dark'
             ))
 
         with tab2:
